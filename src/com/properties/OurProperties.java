@@ -13,7 +13,6 @@ public class OurProperties {
 	public static void main(String[] args) {
 		
 		Properties properties = new Properties();
-			System.out.println("this is second commit");
 	
 		try {
 			properties.load(new FileInputStream("E:\\PracticeData\\Inputs\\our.properties"));
