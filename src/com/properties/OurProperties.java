@@ -13,7 +13,7 @@ public class OurProperties {
 	public static void main(String[] args) {
 		
 		Properties properties = new Properties();
-		
+		System.out.println("this is the change");
 		try {
 			properties.load(new FileInputStream("E:\\PracticeData\\Inputs\\our.properties"));
 			Set<Entry<Object, Object>>  res = properties.entrySet();
